@@ -1,0 +1,7 @@
+# Ensure bash scripts always use LF on checkout regardless of OS
+*.sh    text eol=lf
+# Other text files use the platform default
+*.md    text
+*.yaml  text
+*.yml   text
+*.json  text
